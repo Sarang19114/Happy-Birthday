@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 450px;
+  background-image: url("https://img.pikbest.com/wp/202344/peonies-close-up-flat-lay-of-abundant-pink-peony-bouquet-top-view-stunning-flower-texture_9906705.jpg!w700wp");
+  background-position: center center;
+  mask-repeat: no-repeat;
+}
+
+
+.paper {
+  background-image: url("https://wallpapers.com/images/hd/crumpled-ruled-paper-background-3awbunpr9o0mmsqj.jpg");
+  background-size: 500px;
+  background-position: center center;
+  padding: 20px 100px;
+  transform: rotateZ(-5deg);
+  box-shadow: 1px 15px 20px 0px rgba(0,0,0,0.5);
+  position: absolute;
+}
+
+.paper.flower {
+  position: relative;
+  left: 620px; /* Position the heart paper to the right */
+  width: 200px;
+  height: 200px;
+  padding: 0;
+  border-radius: 50%;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6RJTsQwYW2Lc7-hPgBAbcZjdqKs6dVsKlUA&s'); /* Replace with the initial flower image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+.paper.flower:hover {
+  background-image: url('https://png.pngtree.com/png-vector/20240205/ourmid/pngtree-golden-queen-crown-png-image_11547084.png'); /* Replace with the hover flower image URL */
+  background-size: cover;
+  background-position: center;
+}
+
+
+.paper.image {
+  padding: 10px;
+}
+
+.paper.image p {
+  font-size: 30px;
+}
+
+img {
+  max-height: 200px;
+  width: 100%;
+  user-select: none;
+}
+
+
+p {
+  font-family: 'Zeyada';
+  font-size: 50px;
+  color: rgb(0,0,100);
+  opacity: 0.75;
+  user-select: none;
+  filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9));
+}
+
+
+.paper.poem p {
+  font-size: 20px; /* Reduced font size for the poem */
+  line-height: 1.1; /* Adjust line height for better readability */
+  margin: 2px 0; /* Add margin between lines */
+}
+
+
+
+.buttons {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.buttons button {
+  width: 100px;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background: rgb(224, 82, 106);
+  border: none;
+  box-shadow: 0px 0px 3px black;
+  border-radius: 3px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
